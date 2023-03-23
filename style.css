@@ -5,9 +5,11 @@ h1 {
     border-radius: 150px;
     border: 3px solid #eb97b9;
     padding: 20px;
-    height: 35px;
+    height: 85px;
 }
-
+.centrado{
+    text-align: center;
+}
 h4 {
     font-size: 15px;
     text-align: center;
