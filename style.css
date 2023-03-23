@@ -6,6 +6,8 @@ h1 {
     border: 3px solid #eb97b9;
     padding: 13px;
     height: 85px;
+    max-width: 100%;
+    min-width: 10px;
 }
 .centrado{
     text-align: center;
