@@ -1,17 +1,19 @@
 h1 {
-    text-align: center;
-    background-color: bisque;
-    align-items: center;
-    border-radius: 150px;
-    border: 3px solid #eb97b9;
-    padding: 13px;
-    height: 85px;
-    max-width: 100%;
-    min-width: 10px;
-    font-size: 50;
-    max-height: 100%;
-    min-height: 10px;
-    
+ 
+
+}
+.estilo-h1{
+    text-align: center; /* Permite Centrar El Texto */
+    background-color: bisque; /* Permite darle color a la etiqueta*/
+    align-items: center; /* Permite alinear los elementos */
+    border-radius: 200px; /* Permite darle formato de de derecha a y izquiera si es mas circular etc*/
+    border: 3px solid #eb97b9; /* Les da formato al border exite muchos tipo diferentes */ 
+    padding: 10px; /* Le da  relleno a una propiedad que este dentro de los bordes*/
+    height: 80px; /* La altura de un elemento */
+    margin-top: 1%; /* margin estable el margen para los cuatros lados */
+    max-width: 100%; /* establecer el ancho máximo de un elemento especificado */
+    min-width: 10px; /* establecer el ancho minimo de un elemento especificado */
+    font-size: 45; /* especifica la dimensión de la letra. El tamaño */
 }
 .centrado{
     text-align: center;
@@ -37,13 +39,13 @@ ul {
     list-style-type: none;
     margin: 0px ;
     padding: 0px;
-    overflow: hidden;
+    overflow: hidden; /* especifica: si recortar contenido */
     background-color: rgb(218, 197, 170);
     text-align: center;
 }
 
 li {
-    float: left;
+    float: left; /* ubica un elemento al lado izquierdo o derecho de su contenedor */
 }
 
 li a {
@@ -66,3 +68,17 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
   }
+
+.column{
+    margin: 10px;
+    width: 30%;
+}
+.card{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.card img{
+    width: 200px;
+}
