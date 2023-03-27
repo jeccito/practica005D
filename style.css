@@ -1,4 +1,5 @@
 h1 {
+    overflow: hidden;
  
 
 }
@@ -82,3 +83,4 @@ img {
 .card img{
     width: 200px;
 }
+
