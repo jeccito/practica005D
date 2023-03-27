@@ -1,7 +1,5 @@
 h1 {
-    overflow: hidden;
- 
-
+    overflow: auto;
 }
 .estilo-h1{
     text-align: center; /* Permite Centrar El Texto */
@@ -82,5 +80,8 @@ img {
 }
 .card img{
     width: 200px;
+}
+p {
+    overflow: hidden;
 }
 
